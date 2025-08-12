@@ -12,26 +12,32 @@ This repository contains a minimal, from-scratch implementation of the **Transfo
 - Easily extendable to Decoder and full Seq2Seq tasks
 
 ## File Structure
+```
 transformer-from-scratch/
 │
 ├── transformer.py # Core Transformer encoder implementation
 ├── train_demo.py # Simple training demo
 └── README.md # Project description
+```
 
 ## Installation
 ```bash
 git clone https://github.com/<your-username>/transformer-from-scratch.git
 cd transformer-from-scratch
 pip install torch matplotlib
+```
 
 ## Usage
 Run the demo training loop:
+```
 python train_demo.py
+```
 
 ## Example Output
+```
 Epoch 1, Loss: 4.5912
 Epoch 2, Loss: 4.2128
-...
+```
 
 ## Author
 randarura
